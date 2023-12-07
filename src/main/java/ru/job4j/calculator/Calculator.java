@@ -2,7 +2,7 @@ package ru.job4j.calculator;
 
 public class Calculator {
     public static void main(String[] args) {
-        int one = 1;
+        /*int one = 1;
         int two = 2;
         int six = 6;
         int four = 4;
@@ -15,6 +15,10 @@ public class Calculator {
         System.out.println(onePlusTwo);
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
-        System.out.println(fourTimeTwo);
+        System.out.println(fourTimeTwo);*/
+        int size = 10;
+        size = 100;
+        size = size - 5;
+        System.out.println(size);
     }
 }
