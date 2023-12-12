@@ -33,6 +33,6 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + sumAndMinus(10, 20));
         System.out.println("Результат расчета равен: " + divisionAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + divisionAndMinus(10, 20));
-        System.out.println("Результат расчета равен: " + divisionAndMinusAndSumAndMultiply(10, 20));
+        System.out.println("Результат расчета равен: " + divisionAndMinusAndSumAndMultiply(20, 20));
     }
 }
