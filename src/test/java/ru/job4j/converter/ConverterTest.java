@@ -15,10 +15,6 @@ class ConverterTest {
     }
 
     @Test
-    void whenConvert200Rbl3dot3333Euro() {
-    }
-
-    @Test
     void whenConvert120RblThen2Dollar() {
         float input = 120;
         float expected = 2;
