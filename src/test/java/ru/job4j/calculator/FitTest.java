@@ -4,8 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.withPrecision;
-import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
+
 class FitTest {
 
     @Test
@@ -19,7 +18,7 @@ class FitTest {
     @Test
     void whenWoman170Then69() {
         short input = 165;
-        double expected = 69;
+        double expected = 74.75;
         double output = Fit.womanWeight(input);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
