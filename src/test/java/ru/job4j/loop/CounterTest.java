@@ -59,4 +59,31 @@ class CounterTest {
         int expected = 0;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void whenSumByEven0Start10Finish() {
+        int start = 0;
+        int finish = 10;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 30;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenSumByEven3Start8Finish() {
+        int start = 3;
+        int finish = 8;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 18;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenSumByEven15Start2Finish() {
+        int start = 1;
+        int finish = 1;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 0;
+        assertThat(result).isEqualTo(expected);
+    }
 }
