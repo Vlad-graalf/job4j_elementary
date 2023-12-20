@@ -10,8 +10,13 @@ public class Square {
     }
 
     public static void main(String[] args) {
-        int[] array = calculate(4);
+        int[] array = calculate(3);
         for (int i : array) {
+            System.out.println(i);
+        }
+        System.out.println();
+        int[] array2 = calculate(5);
+        for (int i : array2) {
             System.out.println(i);
         }
     }
