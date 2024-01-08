@@ -6,15 +6,7 @@ public class ChessBoard {
         if (isValid(x1) && isValid(x2)
             && isValid(y1) && isValid(y2)) {
             if (Math.abs(x1 - x2) == Math.abs(y1 - y2)) {
-                int dx = (x2 - x1) / Math.abs(x2 - x1);
-                int dy = (y2 - y1) / Math.abs(y2 - y1);
-                int currentX = x1;
-                int currentY = y1;
-                while (currentX != x2 && currentY != y2) {
-                    currentX += dx;
-                    currentY += dy;
-                    result++;
-                }
+               result = Math.abs(x1 - x2);
             }
         }
         return result;
