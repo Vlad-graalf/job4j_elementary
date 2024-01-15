@@ -1,6 +1,7 @@
 package ru.job4j.condition;
 
 public class RectangleArea {
+
     public static double square(int p, double k) {
         return p * k;
     }

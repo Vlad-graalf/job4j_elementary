@@ -3,6 +3,7 @@ package ru.job4j.array;
 import java.util.Arrays;
 
 public class RollBackArray {
+
     public static int[] rollBack(int[] array) {
         int[] result = new int[array.length];
         for (int index = 0; index < array.length; index++) {

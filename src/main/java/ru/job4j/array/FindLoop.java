@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 public class FindLoop {
+
     public static int indexInRange(int[] data, int element, int start, int finish) {
         int result = -1;
         for (int index = start; index <= finish; index++) {

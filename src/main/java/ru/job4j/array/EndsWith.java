@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 public class EndsWith {
+
     public static boolean endsWith(char[] word, char[] postfix) {
         for (int i = word.length - 1, j = postfix.length - 1; j >= 0; i--, j--) {
             if (word[i] != postfix[j]) {
